@@ -1,0 +1,120 @@
+@media screen and (min-width: 769px) {
+    
+    header {
+        width: 94%;
+    }
+
+    main { 
+        width: 90%;
+    }
+
+    nav img {
+        width: 11vw;
+        margin-left: 93%;
+        text-align: right;
+    }
+
+    #bh {display: inline;}
+#bl {display: inline;}
+#b2020 {display: inline;}
+#bt {display: inline;}
+#bb {display: none;}
+    
+}
+
+nav > a{
+    margin-left: 20px;
+    padding: 8px;
+    margin-right: 15px;
+    color:  #4D0300;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    width: 100%;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.366);
+    
+  }
+  
+  nav > a:hover {
+    text-decoration: underline;
+    background-color: #750400;
+    color: rgba(194, 197, 231, 0.849);
+    padding:16px;
+    border-radius:9px;
+    transition-duration:1s;
+    
+  }
+
+  main img {
+    width:80%;
+    
+  }
+
+  img.trofeu {
+    width: 10%;
+  }
+
+
+
+
+
+
+@media screen and ( min-width:1025px ) {
+
+
+
+    #bh {display: inline;}
+    #bl {display: inline;}
+    #b2020 {display: inline;}
+    #bt {display: inline;}
+    #bb {display: inline;}
+
+
+    header {
+        width: 97.1%;
+    }
+
+    nav > a{
+    
+        padding: 8px;
+        margin-right: 15px;
+        color:  #4D0300;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1.2em;
+        width: 100%;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.366);
+        
+      }
+      
+      nav > a:hover {
+        text-decoration: underline;
+        background-color: #750400;
+        color: rgba(194, 197, 231, 0.849);
+        padding:16px;
+        border-radius:9px;
+        transition-duration:1s;
+        
+      }
+
+    nav img {
+        width: 10vw;
+    }
+
+    main { 
+        width: 90%;
+    }
+    
+ 
+
+    main img {
+        width:88%;
+        
+      }
+
+    a {
+        display:inline;
+    }
+
+    
+}

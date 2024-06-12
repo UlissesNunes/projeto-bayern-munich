@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+* {
+  margin:0px;
+  padding:0px;
+  
+}
+
+  body{
+    
+   
+  
+    background-image:linear-gradient(85deg, #4D0300, #750400) ; 
+    width: 98%;
+   
+  }
+  
+  header {
+    background-color:#fff;
+    padding: 20px;
+    width: 90%;
+    margin: 4px 2px 9px 9px;
+  }
+  
+  nav {
+    background-color:#fff;
+    margin: auto;
+    padding: 10px px;
+    text-shadow: 0px 0px 1px rgba(0,0,0,0.466);
+    margin-top:30px;
+    margin-bottom: 1px;
+    
+  }
+  
+  nav img {
+    margin-left: 81.5%;
+    width: 100px;
+  }
+  nav > a{
+ 
+    margin: 15px;
+    color:  #4D0300;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    width: 100%;
+    
+  }
+  
+  nav > a:hover {
+    text-decoration: underline;
+    background-color: #750400;
+    color: white;
+    padding:8px;
+    border-radius:3px;
+    transition-duration:1s;
+    
+  }
+  
+  header h1 {
+    color: #4D0300;
+    text-align:left;
+    margin: 1px;
+    padding: 5px;
+    font-size: 3em;
+    font-family:'Noto+Serif', serif;
+    font-weight:bold;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.466);
+  }
+  
+  main {
+    background-color: #fff;
+    color: #000000;
+    border-radius:20px 5px;
+    padding:15px;
+   min-width: 280px;
+   max-width: 800px;
+   margin:auto;
+   box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.416);
+   width: 88%;
+  
+  
+    
+  }
+  main  a {
+ 
+     color:#750400;
+     text-decoration: none;
+     padding:8px;
+    border-radius:3px;
+    font-style: bolder;
+  }
+  
+  
+  main img {
+    width:75%;
+    margin:auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+
+
+  
+picture.trofeu {
+    width: 40%;
+    height: 50%;
+  
+  
+  }
+  
+  
+   h2{
+     color: #000000;
+     text-align:left;
+     margin:15px;
+     text-indent:2px;
+     background-image:linear-gradient(45deg, rgba(203, 61, 53, 0.575), transparent 55%);
+     font-family:'Noto+Serif', serif; 
+     font-weight:bolder;
+     font-size:1.6em;
+     text-shadow: 0px 0px 1px rgba(0,0,0,0.466);
+     padding-left:1px;
+   }
+   h3{
+     color:#000000;
+     background-color:#fff;
+     font-size: 1.2em;
+     font-weight:bold;
+     text-shadow: 0px 1px 1px rgba(0,0,0,0.466);
+     padding:10px;
+    
+   }
+   
+   aside {
+     margin-top:30px;
+     margin-bottom:30px;
+     background-color: lightgray;
+     border-radius:10px;
+     list-style-position: inside;
+     list-style-type:circle;
+     border:1px solid #000;
+     }
+   
+   aside ul {
+     margin-top: 20px;
+   }
+   aside h3 {
+     background-color:#750400;
+     padding: 15px;
+     margin: -10 -1 0 -1;
+     border-radius:10px 10px 0px 0px;
+     color:#fff;
+     
+     
+     
+     
+   }
+   aside a {
+     color: #4d0300;
+     text-shadow: 2 2 2 rgba(0,0,0,0.466);
+     padding: 10px;
+     text-decoration: none;
+     
+     
+   }
+   aside a:hover {
+   text-decoration: underline;
+   color: darkgrey;
+   transition-duration:1s;
+   margin: 10px
+   
+   }
+   
+   aside li {
+     margin:10px;
+     padding: 10px;
+   }
+   
+   
+   footer{
+    
+     color: #d6c0b9 ;
+     background-image:linear-gradient(to top, #4d0300 50%, #ffffff00);
+     width: 100%;
+     box-shadow: 1px 1px 3px 3px rgba(10, 10, 10, 0.216);
+     height: 30px;
+     margin: 10px auto 0px;
+     text-align: center;
+     padding:1px;
+     
+   }  
+   footer p{
+     margin: auto;
+     text-align: center;
+     
+   }
+   
+   p{
+     text-indent:25px;
+     text-align: left;
+     text-align: justify;
+     line-height:1.7em;
+     font-size: 1.1em;
+     font-style:normal;
+     font-family: 'Roboto Condensed', sans-serif;
+     padding-right:15px;
+   }
+   
+  
+   #clicavel {
+     background-color: #750400;
+     color: white;
+     margin: 2px;
+   }
+   
+   #clicavel:hover {
+     background-color: floralwhite;
+     color:#750400;
+     margin: 20px;
+     
+   }
+   
+   .linkdestaque{
+     text-decoration:none;
+     color:#4D0300 ;
+     font-weight:bolder;
+     background-color: #750400;
+   }
+   
+   .linkdestaque:hover {
+     text-decoration:underline;
+     background-color: #750400;
+    color: white;
+   }
+ 
+   
+   .linkdestaque::after {
+     content: '⥳'
+   }
+  
+ strong{
+   color: #750400;
+   text-shadow: 0 0 20 rgba(0,0,0,0.466);
+ }
