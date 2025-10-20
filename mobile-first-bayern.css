@@ -242,6 +242,7 @@ picture.trofeu {
      font-weight:bold;
      text-shadow: 0px 1px 1px rgba(0,0,0,0.466);
      padding:10px;
+     margin: 10px 0px 10px 0px;
     
    }
    
@@ -340,3 +341,37 @@ picture.trofeu {
    color: #750400;
    
  }
+
+ #backToTopBtn {
+   
+    position: fixed;
+    bottom: 10px; 
+    right: 10px; 
+    color: #a99003;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    background-color: #490200;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#backToTopBtn:hover {
+   background-color: #490200;
+    color: #a99003;
+}
+
+
+#backToTopBtn.show {
+    opacity: 1;
+    visibility: visible;
+     color: #a99003;
+}
