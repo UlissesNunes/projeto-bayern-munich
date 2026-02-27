@@ -1,6 +1,6 @@
 <div align="center">
 
-# ⚽ FC Bayern München — Vanilla Digital Experience
+# FC Bayern München — Digital Experience
 
 <br />
 
