@@ -55,7 +55,7 @@ p {
 
 main h3 {
   text-align: center;
-  color: #750400;
+  color: #dc052d;
   margin-top: 20px;
 }
 
@@ -66,3 +66,6 @@ aside h3 {
   margin-top: 20px; 
 }
 
+main strong {
+  color: #dc052d;
+}
