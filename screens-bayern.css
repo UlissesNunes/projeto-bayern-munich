@@ -45,6 +45,16 @@
     nav a.offon{
   display: block;
 }
+
+ main img {
+      width: 70%;
+      max-width: 750px;
+      height: 250px;
+      margin: 10px auto; 
+
+      
+    }
+
 }
 
 /* Ajuste para Monitores Extra Largos (Notebooks 15' e Desktops) */

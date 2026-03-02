@@ -52,7 +52,6 @@ p {
   text-align: justify;
 }
 
-
 main h3 {
   text-align: center;
   color: #750400;
@@ -66,3 +65,156 @@ aside h3 {
   margin-top: 20px; 
 }
 
+.campo-tatico {
+    width: 100%;
+    max-width: 600px;
+    margin: 30px auto;
+    background-color: #2e7d32; /* Verde gramado */
+    border: 5px solid #ffffff;
+    border-radius: 15px;
+    position: relative;
+    padding: 20px 0;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.gramado {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+}
+
+/* Linhas do Campo */
+.linha-meio {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 2px;
+    background: rgba(255,255,255,0.5);
+}
+
+.circulo-central {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Posicionamento das Linhas (4-3-3) */
+.linha {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    z-index: 2;
+}
+
+/* O "Pino" do Jogador */
+.jogador-pos {
+    width: 45px;
+    height: 45px;
+    background-color: #dc052d; /* Vermelho Bayern */
+    color: white;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 0.9rem;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+}
+
+/* Número da Camisa */
+.jogador-pos::before {
+    content: attr(data-num);
+}
+
+/* Nome abaixo do Jogador */
+.jogador-pos span {
+    position: absolute;
+    top: 48px;
+    background: rgba(0,0,0,0.7);
+    padding: 2px 8px;
+    border-radius: 5px;
+    font-size: 0.7rem;
+    white-space: nowrap;
+}
+
+/* Ajuste de Respansividade para o Campo */
+@media screen and (max-width: 480px) {
+    .campo-tatico { max-width: 95%; }
+    .gramado { height: 400px; }
+    .jogador-pos { width: 35px; height: 35px; font-size: 0.7rem; }
+}
+
+/* Garante que o campo ocupe a largura total nas 2/3 colunas do desktop */
+@media screen and (min-width: 768px) {
+    .campo-tatico {
+        grid-column: span 2; /* No tablet ocupa 2 colunas */
+    }
+}
+
+@media screen and (min-width: 1224px) {
+    .campo-tatico {
+        grid-column: span 3; /* No desktop ocupa as 3 colunas */
+    }
+}
+
+@media screen and (min-width: 768px) {
+    main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+        max-width: 900px;
+        margin: 30px auto; 
+        align-items: start;
+    }
+
+    /* Itens que ocupam a largura toda */
+    article, aside, footer {
+        grid-column: span 2;
+    }
+
+    /* Ajuste da Imagem: Tamanho Fixo e Proporcional */
+    div.principalimg img {
+        width: 300px;  
+        height: 380px; 
+        object-fit: cover; 
+        object-position: top;
+        display: block;
+        margin: 0 auto;
+        border-radius: 10px;
+       
+    }
+    .jogador-card{
+     
+         transition: transform 0.3s ease;
+    }
+ .jogador-card:hover {
+  transform: scale(1.01); 
+  transition: transform 0.3s ease; 
+    
+}}
+
+@media screen and (min-width: 1224px) {
+    main {
+        max-width: 1200px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    article, aside, footer {
+        grid-column: span 3;
+    }
+
+    div.principalimg img {
+        width: 280px;  
+        height: 350px;
+    }
+}
