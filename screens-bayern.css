@@ -6,7 +6,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-       box-shadow: 10px 1px 10px rgba(0, 0, 0, 0.1);
+       box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
     }
 
     /* Aumentando o H2 sem mexer em padding/margin */

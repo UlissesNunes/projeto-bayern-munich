@@ -29,10 +29,10 @@ header {
   border-bottom: 10px solid #015da3;
 }
 
-header img.logo {
-  width: 75px; 
+
+header img {
+  max-width: 80px;
   height: auto;
-  margin-bottom: 10px;
 }
 
 /* H1 Branco e Centralizado */
