@@ -43,7 +43,7 @@ main {
 }
 
 h1 { font-size: 1.5rem; margin-top: 10px; }
-h2 { font-size: 1.3rem; color: #dc052d; margin: 20px 0 10px; }
+h2 { font-size: 1.3rem; font-weight: bold; color: #dc052d; margin: 20px 0 10px; }
 h3 { font-size: 1.1rem; margin-bottom: 10px; }
 
 p {
